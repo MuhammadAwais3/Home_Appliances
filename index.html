@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home Appliances</title>
+</head>
+<body>
+    <header>
+        <!-- logo here -->
+        <div class="logo">
+            <div class="image">    
+                <img src="./media/images/logo.png">
+            </div>
+        </div>
+        <!--------- Menu Icon------->
+        <div class="menuicon">
+            <img src="./media/icons/menu.png">
+            <div class="dropdown">
+                <div class="ab home">
+                    <a class="a" href="">HOME</a>
+                </div>
+                <div class="ab category1">
+                    <p class="a">CATEGORY</p>
+                    <div class="dropdown">
+                        <div class="category2">
+                            <a href="#Smart_TV">SMART TV</a>
+                        </div>
+                        <div class="category2">
+                            <a  href="#Refrigerator"> REFRIGERATOR </a>
+                        </div>
+                        <div class="category2">
+                            <a href="#Air_Conditioner">AIR CONDITIONER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ab about">
+                    <a class="a" href="#about_us">ABOUT</a>
+                </div>
+                <div class="ab contact">
+                    <a class="a" href="#contact_us">CONTACT</a>
+                </div>
+                
+            </div>                       
+        </div>
+        <!-- navigation bar here -->
+        <nav>
+            <div class="home">
+                <a class="a" href="">HOME</a>
+            </div>
+            <div class="category1">
+                <p>CATEGORY</p>
+                <div class="dropdown">
+                    <div class="category2">
+                        <a href="#Smart_TV">SMART TV</a>
+                    </div>
+                    <div class="category2">
+                        <a href="#Refrigerator"> REFRIGERATOR </a>
+                    </div>
+                    <div class="category2">
+                        <a href="#Air_Conditioner">AIR CONDITIONER</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <a class="a" href="#about_us">ABOUT</a>
+            </div>
+            <div class="contact">
+                <a class="a" href="#contact_us">CONTACT</a>
+            </div>
+            
+            <div class="cart">
+                <a class="a" href=""><img src="./media/icons/cart.png"></a>
+            </div>                    
+        </nav>  
+    </header>
+    <main>
+       <div class="background">
+            <div class="webintro">
+                <div class="webheading">
+                    <h1>Enhancing Comfort, Simplifying Life.</h1>
+                </div>
+                <div class="webcontent">
+                    <p>Experience convenience and relaxation with our innovative products.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- cards section -->
+    <!-- Category Section Smart TV -->
+    <div class="category" id="Smart_TV">
+        <p>SMART TV</p>
+    </div>
+    <section class="maincard" >
+         <!----------Card 1----------->
+        <div class="card">
+            <div class="cardimage">
+                <img src="./media/images/1.webp">
+            </div>
+            <div class="cardcontent">
+                <h1>LG 32 INCH FULL HD LED SMART TV</h1>
+            </div>
+            <div class="price">
+                <p>Price: 210,000 PKR</p>
+            </div>
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added()">Add to Cart</button>
+            </div>
+        </div>
+         <!----------Card 2----------->
+        <div class="card">
+            <div class="cardimage">
+                <img src="./media/images/2.png">
+            </div>
+            <div class="cardcontent">
+                <h1>CHIQ 32 INCH FRAMELESS ANDROID SMART TV</h1>
+            </div>
+            <div class="price">
+                <p>Price: 50,000 PKR</p>
+            </div>
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added()">Add to Cart</button>
+            </div>
+        </div>
+         <!----------Card 3----------->
+        <div class="card">
+            <div class="cardimage">
+                <img src="./media/images/3.png">
+            </div>
+            <div class="cardcontent">
+                <h1>SAMSUNG 65 INCH 4K UHD SMART QLED TV</h1>
+            </div>
+            <div class="price">
+                <p>Price: 198,000 PKR</p>
+            </div> 
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added()">Add to Cart</button>
+            </div>
+        </div>
+        </section>
+        <!-- Smart TV Category End Here -->
+
+        <!-- Category Section Refrigerator -->
+        <div class="category" id="Refrigerator">
+            <p>REFRIGERATOR</p>
+        </div>
+        <section class="maincard">
+        <!----------Card 1----------->
+        <div class="card">
+            <div class="cardimage">
+                <img id="REFRIGERATOR" src="./media/images/4.png" height="400px">
+            </div>
+            <div class="cardcontent">
+                <h1>FOUR DOOR REFRIGERATOR SRF-WB96</h1>
+            </div>
+            <div class="price">
+                <p>Price: 75,000 PKR</p>
+            </div>
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added();">Add to Cart</button>
+            </div>
+        </div>
+        <!----------Card 2----------->
+        <div class="card">
+            <div class="cardimage">
+                <img id="REFRIGERATOR" src="./media/images/5.png">
+            </div>
+            <div class="cardcontent">
+                <h1>SIDE BY SIDE REFRIGERATOR SBS-SK98</h1>
+            </div>
+            <div class="price">
+                <p>Price: 198,000 PKR</p>
+            </div>
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added();">Add to Cart</button>
+            </div>
+        </div>
+        <!----------Card 3---------->
+        <div class="card">
+            <div class="cardimage">
+                <img  id="REFRIGERATOR" src="./media/images/6.png">
+            </div>
+            <div class="cardcontent">
+                <h1>SIDE BY SIDE REFRIGERATOR NOMTSS</h1>
+            </div>
+            <div class="price">
+                <p>Price: 35,000 PKR</p>
+            </div>
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added();">Add to Cart</button>
+            </div>   
+        </div>
+        </section>
+        <!-- Refrigerator Category Section End Here -->
+       
+        <!-- Category Section Air Conditioner Start-->
+        <div class="category" id="Air_Conditioner">
+            <p>AIR CONDITIONER</p>
+        </div>
+        <section class="maincard">
+        <!----------Card 1------------>    
+        <div class="card">
+            <div class="cardimage">
+                <img src="./media/images/7.webp">
+            </div>
+            <div class="cardcontent">
+                <h1>KENWOOD 1.5 TON E-LUXURY INVERTER AC</h1>
+            </div>
+            <div class="price">
+                <p>Price: 210,000 PKR</p>
+            </div>
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added();">Add to Cart</button>
+            </div>
+        </div>
+        <!----------Card 2-------------->
+        <div class="card">
+            <div class="cardimage">
+                <img src="./media/images/8.webp">
+            </div>
+            <div class="cardcontent"> 
+                <h1>TCL 1.5 TON ELITE SERIES AC (TAC-18HEG)</h1>
+            </div>
+            <div class="price">
+                <p>Price: 169,900 PKR</p>
+            </div>   
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added();">Add to Cart</button>
+            </div>
+        </div>
+        <!----------Card 3------------>
+        <div class="card">
+            <div class="cardimage">
+                <img src="./media/images/9.png">
+            </div>
+            <div class="cardcontent"> 
+                <h1>ORIENT 1.0 TON ORBIT SERIES DC INVERTER</h1>
+            </div>
+            <div class="price">
+                <p>Price: 118,000 PKR</p>
+            </div>   
+            <div class="button">
+                <button onclick="purchased();">Buy Now</button>
+                <button onclick="added();">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <!-- Air Conditioner Category Section End Here -->
+   
+    <!------------------- ABOUT US --------------------->
+   <section class="about_us" id="about_us">
+    <div class="container">
+        <h1>ABOUT US</h1>
+        <p>Welcome to Home Appliances! We are passionate about providing high-quality appliances for your home. Our mission is to make your life easier by offering reliable and efficient products.</p>
+        <p>Why choose us?</p>
+        <ul>
+            <li>Wide selection of top-notch appliances</li>
+            <li>Expert advice from our knowledgeable team</li>
+            <li>Exceptional customer service</li>
+        </ul>
+        <p>Contact us today to explore our range of appliances and find the perfect solutions for your home!</p>
+    </div>
+   </section>
+   <!-- About Us End Here  -->
+    <!-- Contact Us Start Here -->
+    <section class="contact_us" id="contact_us">
+        <form action="">
+            <label>CONTACT US</label>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="email" placeholder="Enter Your Email">
+            <input type="text" placeholder="Subject Of Your Message">
+            <textarea placeholder="Message" rows="8"></textarea>
+            <div class="button">
+                <button onclick="submited();" class="submit">Submit</button>
+            </div>
+        </form>
+
+    </section>
+    <!-- Contact us End Here -->
+    <!-- Footer Section -->
+    <footer>
+        <p>Designed by Muhammad Awais</p>
+        <p>Copyright © 2024 Home Appliances Inc.</p>  
+        <div class="icons">
+            <div class="facebookicon">
+                <img src="./media/icons/facebook.png">
+            </div>
+            <div class="instagramicon">
+                <img src="./media/icons/instagram.png">
+            </div>
+            <div class="twittericon">
+                <img src="./media/icons/twitter.png">
+            </div>
+            <div class="googleicon">
+                <img src="./media/icons/google.png">
+            </div>
+            <div class="skypeicon">
+                <img src="./media/icons/skype.png">
+            </div>
+        </div>  
+    </footer>
+<script src="./js/project.js"></script>
+</body>
+</html>

@@ -462,6 +462,12 @@ footer .icons img{
         width: 45%;
         height: auto;
     }
+    .menuicon{
+        display: flex;
+    }
+    nav{
+        display: none;
+    }
     .background{
         height: auto;
     }
@@ -491,12 +497,6 @@ footer .icons img{
     header{
         display: flex;
         justify-content: space-between;
-    }
-    .menuicon{
-        display: flex;
-    }
-    nav{
-        display: none;
     }
     .background{
         height: auto;

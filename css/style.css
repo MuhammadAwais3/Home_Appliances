@@ -451,6 +451,10 @@ footer .icons img{
     }
 }
 @media only screen and (max-width:786px){
+   header{
+        display: flex;
+        justify-content: space-between;
+    }
     main{
         display: flex;
         flex-direction: column;
@@ -494,10 +498,6 @@ footer .icons img{
     
 }
 @media only screen and (max-width:540px){
-    header{
-        display: flex;
-        justify-content: space-between;
-    }
     .background{
         height: auto;
     }

@@ -451,10 +451,6 @@ footer .icons img{
     }
 }
 @media only screen and (max-width:786px){
-   header{
-        display: flex;
-        justify-content: space-between;
-    }
     main{
         display: flex;
         flex-direction: column;
@@ -466,12 +462,7 @@ footer .icons img{
         width: 45%;
         height: auto;
     }
-    .menuicon{
-        display: flex;
-    }
-    nav{
-        display: none;
-    }
+    
     .background{
         height: auto;
     }
@@ -496,6 +487,18 @@ footer .icons img{
         width: 70%;
     }
     
+}
+@media only screen and (max-width:680px){
+     header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menuicon{
+        display: flex;
+    }
+    nav{
+        display: none;
+    }
 }
 @media only screen and (max-width:540px){
     .background{
